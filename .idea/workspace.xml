@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d2d1586-58da-4444-99c0-178be940be38" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1XYaVZPOJqZIPpHc5GLRcFV5HLk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset/arnav" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/dataset" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.recognize">
+    <configuration name="extract_embeddings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="opencv-face-recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extract_embeddings.py" />
+      <option name="PARAMETERS" value="--dataset dataset  --embeddings output/embeddings.pickle  --detector face_detection_model  --embedding-model openface_nn4.small2.v1.t7" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="recognize" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="opencv-face-recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../opencv_venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recognize.py" />
+      <option name="PARAMETERS" value="--detector face_detection_model  --embedding-model openface_nn4.small2.v1.t7  &#9;--recognizer output/recognizer.pickle --le output/le.pickle --image images/target1.jpg" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="recognize_video" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="opencv-face-recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recognize_video.py" />
+      <option name="PARAMETERS" value="--detector face_detection_model --embedding-model openface_nn4.small2.v1.t7 --recognizer output/recognizer.pickle --le output/le.pickle" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="opencv-face-recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_model.py" />
+      <option name="PARAMETERS" value="--embeddings output/embeddings.pickle --recognizer output/recognizer.pickle --le output/le.pickle" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.recognize" />
+      <item itemvalue="Python.train_model" />
+      <item itemvalue="Python.recognize_video" />
+      <item itemvalue="Python.extract_embeddings" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train_model" />
+        <item itemvalue="Python.extract_embeddings" />
+        <item itemvalue="Python.recognize_video" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d2d1586-58da-4444-99c0-178be940be38" name="Default Changelist" comment="" />
+      <created>1581225505757</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581225505757</updated>
+      <workItem from="1581225507235" duration="4057000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581229376445">
+      <screen x="24" y="24" width="1872" height="1032" />
+    </state>
+    <state x="418" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/24.24.1872.1032@24.24.1872.1032" timestamp="1581229376445" />
+    <state x="631" y="344" width="828" height="402" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581229158018">
+      <screen x="24" y="24" width="1872" height="1032" />
+    </state>
+    <state x="631" y="344" width="828" height="402" key="#com.intellij.fileTypes.FileTypeChooser/24.24.1872.1032@24.24.1872.1032" timestamp="1581229158018" />
+    <state x="743" y="297" width="424" height="496" key="FileChooserDialogImpl" timestamp="1581226307629">
+      <screen x="24" y="24" width="1872" height="1032" />
+    </state>
+    <state x="743" y="297" width="424" height="496" key="FileChooserDialogImpl/24.24.1872.1032@24.24.1872.1032" timestamp="1581226307629" />
+    <state width="1826" height="268" key="GridCell.Tab.0.bottom" timestamp="1581229381831">
+      <screen x="24" y="24" width="1872" height="1032" />
+    </state>
+    <state width="1826" height="268" key="GridCell.Tab.0.bottom/24.24.1872.1032@24.24.1872.1032" timestamp="1581229381831" />
+    <state width="1826" height="268" key="GridCell.Tab.0.center" timestamp="1581229381831">
+      <screen x="24" y="24" width="1872" height="1032" />
+    </state>
+    <state width="1826" height="268" key="GridCell.Tab.0.center/24.24.1872.1032@24.24.1872.1032" timestamp="1581229381831" />
+    <state width="1826" height="268" key="GridCell.Tab.0.left" timestamp="1581229381831">
+      <screen x="24" y="24" width="1872" height="1032" />
+    </state>
+    <state width="1826" height="268" key="GridCell.Tab.0.left/24.24.1872.1032@24.24.1872.1032" timestamp="1581229381831" />
+    <state width="1826" height="268" key="GridCell.Tab.0.right" timestamp="1581229381831">
+      <screen x="24" y="24" width="1872" height="1032" />
+    </state>
+    <state width="1826" height="268" key="GridCell.Tab.0.right/24.24.1872.1032@24.24.1872.1032" timestamp="1581229381831" />
+    <state x="804" y="190" width="1022" height="742" key="SettingsEditor" timestamp="1581229494826">
+      <screen x="24" y="24" width="1872" height="1032" />
+    </state>
+    <state x="804" y="190" width="1022" height="742" key="SettingsEditor/24.24.1872.1032@24.24.1872.1032" timestamp="1581229494826" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/opencv_face_recognition$recognize.coverage" NAME="recognize Coverage Results" MODIFIED="1581229381822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/opencv_face_recognition$train_model.coverage" NAME="train_model Coverage Results" MODIFIED="1581229216612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/opencv_face_recognition$recognize_video.coverage" NAME="recognize_video Coverage Results" MODIFIED="1581227603424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/opencv_face_recognition$extract_embeddings.coverage" NAME="extract_embeddings Coverage Results" MODIFIED="1581229177121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
